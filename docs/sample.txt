@@ -1,0 +1,12 @@
+RAG Assistant — Sample Document
+
+This is a test document for the Talk to Documents project.
+
+Retrieval-Augmented Generation (RAG) works by:
+1. Loading documents and splitting them into smaller chunks.
+2. Converting each chunk into a numerical embedding (a vector).
+3. Storing those vectors in a database like Chroma.
+4. When you ask a question, finding the most relevant chunks.
+5. Sending those chunks to Claude along with your question to generate a cited answer.
+
+Use this file to verify that document loading works in Step 1.
